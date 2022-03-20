@@ -1,6 +1,9 @@
 {
   "name": "inos-baileys-wabot",
   "version": "0.0.4",
+   "engines": {
+    "node": "16.13.1"
+  }
   "description": "Whatsapp Bot Termux",
   "main": "index.js",
   "directories": {
