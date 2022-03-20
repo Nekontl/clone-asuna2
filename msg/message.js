@@ -485,6 +485,14 @@ break
                 break
           
       //OWNER SECTION
+      case 'bc':
+      if(!isOwner) return devn.reply(`Owner Only!`)
+        const anu = await devn.chats.all()
+        for (let _ of anu) {
+				devn.sendMessage(_.jid, `${body.slice(4)}`, text)
+						}
+						devn.reply('Suksess broadcast')
+        break
       case `dompet`:
         User.findOne({nowa: sender.replace('@s.whatsapp.net', '')}).then(async(ak) => {
         if(ak === undefined || ak === null) { return devn.reply(`Sepertinya nomor kakak belum terdaftar di database...\n\nSilahkan daftar di https://asuna-login.herokuapp.com/ \n\n*Catatan : untuk pengisian Nomor Whatsapp menggunakan awalan 62,bukan 08,seperti 62821xxx*\n_Dan untuk password bebas,yang penting ingat!_`)
