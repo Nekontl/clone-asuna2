@@ -20,7 +20,7 @@
 
 **First deploy bot**, Click the deploy icon below !
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/InosID/inos-baileys-wabot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nekontl/clone-asuna2)
 
 Then click view web.
 After that, scan the qr, Done.
