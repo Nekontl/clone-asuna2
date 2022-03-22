@@ -241,7 +241,7 @@ module.exports = msgMain = async(devn = new conn, msg) => {
             'Rendang',
             'Telor',
             ]
-            const ownerNumber = '6282126688740@s.whatsapp.net'
+            const ownerNumber = '62882009996111@s.whatsapp.net'
             const isOwner = ownerNumber.includes(sender)
             const SN = GenerateSerialNumber("000000000000000000000000")
             const moment = require('moment-timezone')
