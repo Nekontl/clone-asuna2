@@ -10,7 +10,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "pm2-runtime start index.js"
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -26,7 +26,6 @@
   "author": "InosID",
   "license": "GPL-3.0",
   "dependencies": {
-    "pm2": "^2.4.4",
     "quickmongo": "^3.0.2",
     "moment-timezone": "^0.5.33",
     "@adiwajshing/baileys": "^3.5.3",
